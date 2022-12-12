@@ -1,10 +1,8 @@
-import Head from "next/head";
 import Image from "next/image";
-import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className="h-screen w-screen bg-[url('/camera.jpg')] bg-no-repeat bg-cover">
+    <div className="h-screen w-screen max-w-[1500px] mx-auto bg-[url('/camera.jpg')] bg-no-repeat bg-cover">
       <nav className="w-ful p-4 flex justify-between items-center">
         <Image src="/logo.png" alt="logo" width={"120"} height={"20"} />
         <div className="text-[0.9rem] w-[50%] flex justify-around font-semibold cursor-pointer">
